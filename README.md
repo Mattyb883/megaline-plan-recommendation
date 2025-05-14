@@ -1,5 +1,18 @@
 # Predicting Mobile Plans with Machine Learning
 
+## Table of Contents
+- [Overview](#overview)
+- [Dataset](#dataset)
+- [Project Workflow](#project-workflow)
+- [Results](#results)
+- [Tools and Libraries](#tools-and-libraries)
+- [Recommendations and Future Work](#recommendations-and-future-work)
+- [How to Run](#how-to-run)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
+
+---
+
 ## Overview
 This project aims to build a machine learning model that analyzes subscriber behavior and recommends one of two mobile plans offered by Megaline:
 1. **Smart Plan**
@@ -27,7 +40,7 @@ The dataset contains monthly behavior information for Megaline subscribers, incl
      - Random Forest
    - Hyperparameter tuning was performed on the Random Forest model to optimize its performance.
 4. **Addressing Class Imbalance**:
-   - Adjusted for class imbalance using `class_weight="balanced"` in the Random Forest model to improve recall for the minority class (Ultra Plan).
+   - Applied class weighting to improve the model's ability to predict the minority class (Ultra Plan).
 5. **Model Testing**:
    - Evaluated the final model on the test dataset to ensure robust performance.
 
@@ -59,4 +72,4 @@ The dataset contains monthly behavior information for Megaline subscribers, incl
 ## How to Run
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-repo-name/predicting-mobile-plans.git
+   git clone https://github.com/Mattyb883/megaline_mobile.git
